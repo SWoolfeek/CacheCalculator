@@ -1,0 +1,62 @@
+# Build Folders
+bin/
+obj/
+
+# User-Specific Files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# Visual Studio Files
+.vscode/
+.vs/
+*.code-workspace
+
+# Rider IDE Files
+.idea/
+*.sln.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependency Cache
+*.nuget/
+packages/
+
+# Generated Files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.crdownload
+*.local
+*.ldb
+
+# Publish Outputs
+publish/
+
+# Coverage and Test Results
+*.coverage
+*.coveragexml
+*.testlog
+
+# Configuration Files
+appsettings.*.json
+secrets.json
+env.local
+.env
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.pid
+*.gz
+*.tar
+*.zip
+*.7z
