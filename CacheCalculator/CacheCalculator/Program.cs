@@ -14,5 +14,8 @@ class Program
 
         Console.WriteLine("Hash result:");
         Console.WriteLine(cCalculator.Calculate());
+        
+        Console.WriteLine("Press any key to exit...");
+        Console.WriteLine();
     }
 }
