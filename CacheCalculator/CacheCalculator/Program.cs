@@ -2,8 +2,17 @@
 
 using CacheCalculator;
 
-Console.WriteLine("Hello, World!");
-Calculator cCalculator = new Calculator();
-cCalculator.SetParams("secureLogin=ext_test1&options=GetFeatures");
-cCalculator.SetKey("testKey");
-Console.WriteLine("hash = " + cCalculator.Calculate());
+class Program
+{
+    static void Main()
+    {
+        Calculator cCalculator = new Calculator();
+        Console.WriteLine("Hello! Write parameters (Example: key1=value1&key2=value2):");
+        cCalculator.SetParams(Console.ReadLine());
+        Console.WriteLine("Enter the secret key:");
+        cCalculator.SetKey(Console.ReadLine());
+
+        Console.WriteLine("Hash result:");
+        Console.WriteLine(cCalculator.Calculate());
+    }
+}

@@ -50,7 +50,6 @@ public class Calculator
 
         result = result.TrimEnd('&');
         
-        Console.WriteLine(result);
         _requestParams = result;
     }
 
